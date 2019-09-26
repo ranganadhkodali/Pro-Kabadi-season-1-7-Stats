@@ -14,5 +14,21 @@ This Repository contain the statistics containing Pro Kabadi Match level details
 
 ## Data Set 
 
-- DS_match, DS_players .. etc files contain the data in the form of CSV. match_id is common across all tables represents specific match.
-- There are two team ids in the match_id, each represents teams compitating each other in that  match. details of each team will be availible in other files with the details. 
+### DS_match.csv - Contain the Match Details as per the below table 
+- match_id :- Unique ID of for each match
+- match_number : Same of the above in text format
+- date : Date of the Match
+- start_time : Match begin Time on the day
+- result : Text field explaining what is the result
+- player_id_of_the_match : player of the match id (can be refered to the DS_players with the combination of Match ID and Player ID
+- player_name_of_the_match : Player of the match
+- series_id : season identifier 
+- series_name :season name 
+- status : status of the match
+- toss_winner : toss winner team id
+- toss_selection : toss selection
+- venue_id : location 
+- venue_name : location name
+- home_team_id : Team ID 
+- home_team_name : description.
+
